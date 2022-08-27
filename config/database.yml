@@ -83,3 +83,4 @@ production:
   database: render_practice_production
   username: render_practice
   password: <%= ENV['RENDER_PRACTICE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL']%>
